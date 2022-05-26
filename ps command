@@ -10,9 +10,8 @@ int main(int a, char** b){
   DIR *dir;
   int i, fd_self, fd;
   unsigned long time, stime;
-  char cmd[256], tty_self[256], path[256], time_s[256];
+  char cmd[256],path[256], time[256];
   fscanf(file, "%lu", &time);
-  fscanf(file, "%lu", &stime);
   ps -p; // process active on the program
   fclose(file);
   }
